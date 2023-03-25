@@ -1,0 +1,57 @@
+<form action="/http://paxinas.danielcastelao.org/action_page.php" method="GET" enctype="text/plain">
+    
+    <fieldset>
+      <legend>Datos personales</legend>
+      <label for="fname">DNI</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="fname">Nombre</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Apellido</label><br>
+      <input type="text" id="lname" name="lname"><br>
+    </fieldset>
+  
+    <fieldset>
+      <legend>Edad</legend>
+      <form>
+        <input type="radio" id="15-19" name="Edad" value="15-19">
+        <label for="html">15-19</label><br>
+        <input type="radio" id="20-29" name="Edad" value="20-29">
+        <label for="css">20-29</label><br>
+        <input type="radio" id="30-40" name="Edad" value="30-40">
+        <label for="javascript">30-40</label>
+      </form>
+    </fieldset>
+  
+    <fieldset>
+      <legend>Estado civil</legend>
+      <select size="4">
+        <option value="HTML">Estado civil</option>
+        <option value="Soltero">Soltero</option>
+        <option value="Casado">Casado</option>
+        <option value="Divorciado">Divorciado</option>
+      </select>
+    </fieldset>
+  
+    <fieldset>
+      <legend>Aficiones</legend>
+      <form>
+        <input type="checkbox" id="afficion1" name="afficion1" value="Cine">
+        <label for="afficion1"> Cine</label><br>
+        <input type="checkbox" id="afficion2" name="afficion2" value="Deportes">
+        <label for="afficion"> Deportes</label><br>
+        <input type="checkbox" id="afficion3" name="afficion3" value="Lectura">
+        <label for="afficion"> Lectura</label><br>
+        <input type="checkbox" id="afficion4" name="afficion4" value="Senderismo">
+        <label for="afficion3"> Senderismo</label>
+      </form>
+    </fieldset>
+  
+    <fieldset>
+      <legend>Comentarios</legend>
+      <label for="comentarios">Comentarios:</label><br>
+      <textarea id="comentarios" name="comentarios" placeholder="Escribe aqui tus comentarios"></textarea><br>
+    </fieldset>
+  
+    <input type="submit" value="Submit">
+  
+  </form>
